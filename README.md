@@ -1,12 +1,12 @@
 # NFTDAO Project
-The purpose of this assignment is to assess your skills and experience in developing ERC721 NFT-governed DAOs. The project involves creating a DApp using React for the frontend and Node.js with Hardhat for the backend. The DAO will be used to manage a collection of NFTs, and it will allow the owners of the NFTs to vote on decisions related to the collection.
+The project involves creating a DApp using React for the front end and Node.js with Hardhat for the backend. The DAO will be used to manage a collection of NFTs, and it will allow the owners of the NFTs to vote on decisions related to the collection.
 
 ## Smart Contract
 The project includes a smart contract named NFTDAO.sol. This contract inherits from the Ownable and ERC721Enumerable contracts provided by the OpenZeppelin library. The contract features the following functionalities:
 
 ## Structures
-- Proposal: A structure representing a proposal with a description, number of yes votes, number of no votes, a mapping to track voting status of addresses, and an approval status.
-- 
+- Proposal: A structure representing a proposal with a description, number of yes votes, number of no votes, a mapping to track the voting status of addresses, and approval status.
+
 ### State Variables
 - proposals: A mapping that stores proposals by their IDs.
 - proposalCounter: A counter to track the number of proposals created.
